@@ -18,6 +18,8 @@ I forgot something very basic, TryCatchFail->output if the filename is wrong
 
 I used changing naming variable name conventions in the beginning(SheetStructure)
 
+There is a lot of repeated code in the ConfigGen function
+
 
 
 
