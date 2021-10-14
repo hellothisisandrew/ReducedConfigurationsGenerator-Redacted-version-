@@ -324,26 +324,6 @@ class display_instance(excel_instance):
 
             issues.finishAndColor(self.scenarios,colorColumns) 
 
-'''      
-
-class usb_instance(excel_instance):
-
-    
-    
-    
-    def __init__(self,Excel_File):
-        excel_instance.__init__(self,Excel_File, USB)
-
-    
-    
-       
-
-    def test(self):
-        excel_instance.test(self)
-        print(self.scenariosSheet.Column_List())
-        print(self.scenariosSheet.Title_Row())
-        print(self.scenariosSheet.test())
-'''
 
 
 class issue(object):
@@ -499,14 +479,7 @@ class issueList(object):
                 continue
             item.write()
      
-    
-    def test(self):
-        for row in self.issuesListSmoke:
-            if row.isEmpty():
-                continue
-            row.print()
-
-    
+ 
     def finishAndColor(self,scenarios,colors):
         self.issuesSheet.saveAndClose(scenarios,colors)
     
