@@ -75,16 +75,7 @@ class excel_instance(object):
     def generateRowArray(self, row):
         array = self.scenariosSheet.generateRowList(row) 
         return array
-    '''         
-    
-    def searchForInfo(self, info, array):
-        info = str(info).lower().replace(" ", "") 
-        for col,x in enumerate(array):              
-            if str(x).lower().replace() == info:    
-                return get_column_letter(col)                          
 
-        return dict_error                           
-    '''
 
    
 
