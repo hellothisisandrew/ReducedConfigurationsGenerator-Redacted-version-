@@ -13,8 +13,11 @@ I was given permmision to post this.
 
 
 Mistakes:
+
 I forgot something very basic, TryCatchFail->output if the filename is wrong
+
 I used changing naming variable name conventions in the beginning(SheetStructure)
+
 My decision to use dicts to store the sheet data was unwise
 
 
