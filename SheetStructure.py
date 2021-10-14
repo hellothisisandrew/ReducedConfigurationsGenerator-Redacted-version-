@@ -386,38 +386,7 @@ class refLegends(object):
     def adapterInfo(self, adapter):
         pass
 
-    def test1(self):
-        while(True):
-            listINq = input("List you are searching:::: ")
-            print("\n")
-            item = input("item you are looking for:::: ")
-            print("\n")
-
-            rowCol = self.getListItemRC(item, self.titleFinder(listINq))
-            print("row: " + str(rowCol[0]) + "  col: " + str(rowCol[1]))
-            print("\n")
-
-    def test2(self):
-        while(True):
-            x = input("Press d for dock c for cable p for platform and tb for thunderbolt::: ")
-            print("\n\n")
-            if x == 'd':
-                toPrint = self.dockInfo(input("*-----*")) #removed string
-            elif x == 'c':
-                toPrint = self.cableInfo(input("*------* ")) #Removed String
-            elif x == 'p':
-                toPrint = self.platformInfo(input("*------*")) #Removed String
-            elif x == 't':
-                toPrint = self.dockInfo(input("*---------* "), True) #Removed String
-            else:
-                print("try again")
-                continue
-
-            print("\n\n")
-            print("-"*10 + "  dock info:-> \n")
-            print(toPrint)
-            print("\n\n")
-
+ 
             
 
 
