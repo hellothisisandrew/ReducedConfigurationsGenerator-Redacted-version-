@@ -71,39 +71,6 @@ class excel_instance(object):
         self.resultsSheet = sheet.Standard(Excel_File, self.results, self.index)
         
 
-
-    '''
-    
-    
-    def configLists(self):
-        pass
-
-    
-    def grabTest(self,column):
-        if isinstance(column, int):
-            toCheck = get_column_letter(column)
-        else:
-            toCheck = column
-
-        test = self.scenariosSheet.getTestName(toCheck)
-        if test == dict_error:
-            return dict_error
-        else:
-            return test
-
-  
-    
-    
-    
-    def isSimpleTest(self, text):
-        text = str(text)            
-        text = text.lower().replace(" ", "")
-        if re.search(text,"[a|A][1-3]\.[0-9]*"):
-            return True
-        else:
-            return False
-    '''
-    
     
     def generateRowArray(self, row):
         array = self.scenariosSheet.generateRowList(row) 
