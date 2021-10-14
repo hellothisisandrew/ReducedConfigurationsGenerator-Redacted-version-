@@ -10,17 +10,3 @@ I cannot be more descriptive due to NDA.
 This program is Novus Labs IP.
 I was given permmision to post this.
 
-
-
-Mistakes:
-
-I forgot something very basic, TryCatchFail->output if the filename is wrong
-
-I used changing naming variable name conventions in the beginning(SheetStructure)
-
-
-
-
-
-
-
