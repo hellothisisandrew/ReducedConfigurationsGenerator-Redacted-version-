@@ -276,7 +276,7 @@ class Standard(Data):
 
 
 
-
+#this was only used in the original Config generator
 
 class refLegends(object):
     
